@@ -1,3 +1,165 @@
+$button-primary-bg: linear-gradient(65deg, #0270d7 0, #0f8afd 100%);
+$button-secundary-bg: #242830;
+
 .App {
   text-align: center;
+}
+
+.site-header {
+  padding: 20px;
+  display: flex;
+}
+
+.logo {
+  width: 40px;
+}
+
+.site-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  padding: 48px 1em;
+}
+
+.hero {
+  text-align: left;
+}
+
+.hero-title {
+  font-size: 2.5em;
+  color: #fff;
+  padding-bottom: 0.7em;
+  max-width: 50%;
+}
+
+.hero-description {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  margin-bottom: 24px;
+  letter-spacing: -0.1px;
+  max-width: 50%;
+}
+
+.hero-cta {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  color: #fff;
+  cursor: pointer;
+  min-width: 20%;
+  padding: 1em 1.3em;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.button-block {
+  width: 100%;
+  justify-content: center;
+  margin-top: 1em;
+
+}
+
+.button-primary {
+  background: $button-primary-bg;
+  margin-right: 1em;
+}
+
+.button-secundary {
+  background-color: $button-secundary-bg;
+}
+
+.features-flex,
+.reviews-flex,
+.pricing-tables {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4em 2em;
+}
+
+.features-title,
+.reviews-title,
+.pricing-title {
+  font-size: 2.1em;
+  color: #fff;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 5em;
+}
+
+.separator .line {
+  height: 2px;
+  flex: 1;
+  background-color: rgb(39, 38, 38);
+}
+
+.feature,
+.review {
+  width: 300px;
+}
+
+.feature-title,
+.review-title {
+  font-size: 1.4em;
+  letter-spacing: -0.1px;
+  color: #fff;
+  padding-bottom: 0.7em;
+}
+
+.feature-description,
+.review-description {
+  font-size: 1.1em;
+  letter-spacing: -0.1px;
+  line-height: 1.5em;
+}
+
+.pricing-table {
+  text-align: left;
+  padding: 0.7em 1.7em 1.7em;
+  background-color: #2c3039;
+  width: 280px;
+}
+
+.pricing-table-price-currency {
+  font-size: 1.5em;
+}
+
+.pricing-table-price-amount {
+  font-size: 2.4em;
+  color: #fff;
+  padding: 0;
+}
+
+.pricing-table-features-title {
+  color: #fff;
+  letter-spacing: -0.1px;
+  font-weight: 700;
+  padding: 1.6em 0 !important;
+}
+
+.pricing-table-feature {
+  list-style: none;
+}
+
+.pricing-table-price,
+.pricing-table-features-title,
+.pricing-table-feature li {
+  border-bottom: 1px solid rgba(138, 148, 167, 0.24);
+  padding: 1.2em 0;
 }

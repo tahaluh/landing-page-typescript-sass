@@ -6,69 +6,183 @@ function App() {
   return (
     <div className="App">
       <header className="site-header">
-        <i className="devicon-typescript-plain"></i>
+        <a href="#">
+          <img
+            className="logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+          />
+        </a>
       </header>
+
       <main className="site-main">
-        <section className="hero">
-          <h1 className="hero-title"></h1>
-          <p className="hero-description"></p>
+        <section className="hero section">
+          <h1 className="hero-title">Landing page com Typescript</h1>
+          <p className="hero-description">
+            Essa landing page se adapta a todos os dispositivos, então você
+            altera uma vez e fica pronto para sempre!
+          </p>
           <div className="hero-cta">
-            <a className="button">Entrar em contato</a>
+            <button className="button button-primary">Comprar agora</button>
+            <button className="button button-secundary">
+              Entrar em contato
+            </button>
           </div>
         </section>
 
-        <section className="features">
-          <div className="feature">
-            <div className="feature-icon">
-              <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+        <section className="features section">
+          <div className="separator">
+            <div className="line"></div>
+            <h2 className="features-title">Recursos</h2>
+            <div className="line"></div>
+          </div>
+          <div className="features-flex">
+            <div className="feature">
+              <div className="feature-icon">
+                <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+              </div>
+              <h3 className="feature-title">Sabor do bom</h3>
+              <p className="feature-description">
+                O tal produto além de ter um agradável sabor compatível, tem um
+                grande desconto por qualquer coisa que só to escrevendo pra
+                ficar maior aqui
+              </p>
             </div>
-            <h3 className="feature-title">Sabor do bom</h3>
-            <p className="feature-description">
-              O tal produto além de ter um agradável sabor compatível, tem um
-              grande desconto por qualquer coisa que só to escrevendo pra ficar
-              maior aqui
-            </p>
-          </div>
-        </section>
-
-        <section className="reviews">
-          <div className="review">
-            <div className="reviwer-icon">
-              <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+            <div className="feature">
+              <div className="feature-icon">
+                <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+              </div>
+              <h3 className="feature-title">Sabor do bom</h3>
+              <p className="feature-description">
+                O tal produto além de ter um agradável sabor compatível, tem um
+                grande desconto por qualquer coisa que só to escrevendo pra
+                ficar maior aqui
+              </p>
             </div>
-            <h3 className="review-title">O bagulho é obm mesmo</h3>
-            <p className="review-description">
-              O tal produto além de ter um agradável sabor compatível, tem um
-              grande desconto por qualquer coisa que só to escrevendo pra ficar
-              maior aqui
-            </p>
+            <div className="feature">
+              <div className="feature-icon">
+                <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+              </div>
+              <h3 className="feature-title">Sabor do bom</h3>
+              <p className="feature-description">
+                O tal produto além de ter um agradável sabor compatível, tem um
+                grande desconto por qualquer coisa que só to escrevendo pra
+                ficar maior aqui
+              </p>
+            </div>
           </div>
         </section>
 
-        <section className="pricing">
-          <h2 className="pricing-title">Planos:</h2>
+        <section className="reviews section">
+          <div className="separator">
+            <div className="line"></div>
+            <h2 className="reviews-title">Avaliações</h2>
+            <div className="line"></div>
+          </div>
+          <div className="reviews-flex">
+            <div className="review">
+              <div className="reviwer-icon">
+                <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+              </div>
+              <h3 className="review-title">O bagulho é bom mesmo</h3>
+              <p className="review-description">
+                O tal produto além de ter um agradável sabor compatível, tem um
+                grande desconto por qualquer coisa que só to escrevendo pra
+                ficar maior aqui
+              </p>
+            </div>
+            <div className="review">
+              <div className="reviwer-icon">
+                <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+              </div>
+              <h3 className="review-title">O bagulho é bom mesmo</h3>
+              <p className="review-description">
+                O tal produto além de ter um agradável sabor compatível, tem um
+                grande desconto por qualquer coisa que só to escrevendo pra
+                ficar maior aqui
+              </p>
+            </div>
+            <div className="review">
+              <div className="reviwer-icon">
+                <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+              </div>
+              <h3 className="review-title">O bagulho é bom mesmo</h3>
+              <p className="review-description">
+                O tal produto além de ter um agradável sabor compatível, tem um
+                grande desconto por qualquer coisa que só to escrevendo pra
+                ficar maior aqui
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="pricing section">
+          <div className="separator">
+            <div className="line"></div>
+          <h2 className="pricing-title">Comprar:</h2>
+            <div className="line"></div>
+          </div>
           <div className="pricing-tables">
             <div className="pricing-table">
-              <span className="pricing-table-price-currency">R$</span>
-              <span className="pricing-table-price-amount">20</span>
-            </div>
-            <div className="pricing-table-features">
-              <div className="pricing-table-features-title">
-                O que você ganha?
+              <div className="pricing-table-price">
+                <span className="pricing-table-price-currency">R$</span>
+                <span className="pricing-table-price-amount">20</span>
               </div>
-              <ul className="pricing-table-feature">
-                <li>Cubo Diorama 9x9Cm</li>
-                <li>Tema personalizado</li>
-                <li>Frete grátis</li>
-              </ul>
+              <div className="pricing-table-features">
+                <div className="pricing-table-features-title">
+                  O que você ganha?
+                </div>
+                <ul className="pricing-table-feature">
+                  <li><i className="fa-solid fa-check"></i> Cubo Diorama 9x9Cm</li>
+                  <li><i className="fa-solid fa-check"></i> Tema personalizado</li>
+                  <li><i className="fa-solid fa-check"></i> Frete grátis</li>
+                </ul>
+              </div>
+              <div className="pricing-table-cta">
+                <button className="button button-primary button-block">Compre agora</button>
+              </div>
             </div>
-            <div className="pricing-table-cta">
-              <button className="button-primary"></button>
+            <div className="pricing-table">
+              <div className="pricing-table-price">
+                <span className="pricing-table-price-currency">R$</span>
+                <span className="pricing-table-price-amount">20</span>
+              </div>
+              <div className="pricing-table-features">
+                <div className="pricing-table-features-title">
+                  O que você ganha?
+                </div>
+                <ul className="pricing-table-feature">
+                  <li><i className="fa-solid fa-check"></i> Cubo Diorama 9x9Cm</li>
+                  <li><i className="fa-solid fa-check"></i> Tema personalizado</li>
+                  <li><i className="fa-solid fa-check"></i> Frete grátis</li>
+                </ul>
+              </div>
+              <div className="pricing-table-cta">
+                <button className="button button-primary button-block">Compre agora</button>
+              </div>
+            </div>
+            <div className="pricing-table">
+              <div className="pricing-table-price">
+                <span className="pricing-table-price-currency">R$</span>
+                <span className="pricing-table-price-amount">20</span>
+              </div>
+              <div className="pricing-table-features">
+                <div className="pricing-table-features-title">
+                  O que você ganha?
+                </div>
+                <ul className="pricing-table-feature">
+                  <li><i className="fa-solid fa-check"></i> Cubo Diorama 9x9Cm</li>
+                  <li><i className="fa-solid fa-check"></i> Tema personalizado</li>
+                  <li><i className="fa-solid fa-check"></i> Frete grátis</li>
+                </ul>
+              </div>
+              <div className="pricing-table-cta">
+                <button className="button button-primary button-block">Compre agora</button>
+              </div>
             </div>
           </div>
         </section>
 
-        <section className="contact">
+        <section className="contact section">
           <h2 className="contact-title">Alguma dúvida? Entre em contato</h2>
           <form className="contact-form">
             <input
@@ -152,7 +266,9 @@ function App() {
             </a>
           </li>
         </ul>
-        <div className="footer-copyright">© 2022 Thauã Magalhães, todos os direitos reservados</div>
+        <div className="footer-copyright">
+          © 2022 Thauã Magalhães, todos os direitos reservados
+        </div>
       </footer>
     </div>
   );
