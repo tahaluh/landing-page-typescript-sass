@@ -1,5 +1,6 @@
 $button-primary-bg: linear-gradient(65deg, #0270d7 0, #0f8afd 100%);
 $button-secundary-bg: #242830;
+$secundary-bg-color: #2c3039;
 
 .App {
   text-align: center;
@@ -65,7 +66,6 @@ $button-secundary-bg: #242830;
   width: 100%;
   justify-content: center;
   margin-top: 1em;
-
 }
 
 .button-primary {
@@ -115,8 +115,9 @@ $button-secundary-bg: #242830;
 }
 
 .feature-title,
-.review-title {
-  font-size: 1.4em;
+.review-title,
+.contact-title {
+  font-size: 1.5em;
   letter-spacing: -0.1px;
   color: #fff;
   padding-bottom: 0.7em;
@@ -132,7 +133,7 @@ $button-secundary-bg: #242830;
 .pricing-table {
   text-align: left;
   padding: 0.7em 1.7em 1.7em;
-  background-color: #2c3039;
+  background-color: $secundary-bg-color;
   width: 280px;
 }
 
@@ -162,4 +163,42 @@ $button-secundary-bg: #242830;
 .pricing-table-feature li {
   border-bottom: 1px solid rgba(138, 148, 167, 0.24);
   padding: 1.2em 0;
+}
+
+.contact {
+  min-width: 40%;
+}
+
+.contact-div {
+  padding: 1.5em;
+  background-color: $secundary-bg-color;
+}
+
+.contact-form {
+  margin-top: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.contact-form-input {
+  border: none;
+  padding: 0.7em;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contact-form textarea {  
+  min-width: calc(100% - 1.4em);
+}
+
+.site-footer {
+
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
 }

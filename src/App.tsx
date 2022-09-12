@@ -38,7 +38,7 @@ function App() {
           <div className="features-flex">
             <div className="feature">
               <div className="feature-icon">
-                <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+                <img className="image" src="https://i.pinimg.com/originals/01/b8/c3/01b8c3d325c2c6ded29bf35159e19de3.jpg"></img>
               </div>
               <h3 className="feature-title">Sabor do bom</h3>
               <p className="feature-description">
@@ -49,7 +49,7 @@ function App() {
             </div>
             <div className="feature">
               <div className="feature-icon">
-                <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+                <img className="image" src="https://i.pinimg.com/originals/01/b8/c3/01b8c3d325c2c6ded29bf35159e19de3.jpg"></img>
               </div>
               <h3 className="feature-title">Sabor do bom</h3>
               <p className="feature-description">
@@ -60,7 +60,7 @@ function App() {
             </div>
             <div className="feature">
               <div className="feature-icon">
-                <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+                <img className="image" src="https://i.pinimg.com/originals/01/b8/c3/01b8c3d325c2c6ded29bf35159e19de3.jpg"></img>
               </div>
               <h3 className="feature-title">Sabor do bom</h3>
               <p className="feature-description">
@@ -81,7 +81,7 @@ function App() {
           <div className="reviews-flex">
             <div className="review">
               <div className="reviwer-icon">
-                <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+                <img className="image" src="https://i.pinimg.com/736x/8c/d8/73/8cd8736024a650f7b8c2e0c91fcfeb0e--penguins-of-madagascar-art-ideas.jpg"></img>
               </div>
               <h3 className="review-title">O bagulho é bom mesmo</h3>
               <p className="review-description">
@@ -92,7 +92,7 @@ function App() {
             </div>
             <div className="review">
               <div className="reviwer-icon">
-                <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+              <img className="image" src="https://i.pinimg.com/736x/8c/d8/73/8cd8736024a650f7b8c2e0c91fcfeb0e--penguins-of-madagascar-art-ideas.jpg"></img>
               </div>
               <h3 className="review-title">O bagulho é bom mesmo</h3>
               <p className="review-description">
@@ -103,7 +103,7 @@ function App() {
             </div>
             <div className="review">
               <div className="reviwer-icon">
-                <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+              <img className="image" src="https://i.pinimg.com/736x/8c/d8/73/8cd8736024a650f7b8c2e0c91fcfeb0e--penguins-of-madagascar-art-ideas.jpg"></img>
               </div>
               <h3 className="review-title">O bagulho é bom mesmo</h3>
               <p className="review-description">
@@ -118,98 +118,131 @@ function App() {
         <section className="pricing section">
           <div className="separator">
             <div className="line"></div>
-          <h2 className="pricing-title">Comprar:</h2>
+            <h2 className="pricing-title">Comprar:</h2>
             <div className="line"></div>
           </div>
           <div className="pricing-tables">
             <div className="pricing-table">
               <div className="pricing-table-price">
                 <span className="pricing-table-price-currency">R$</span>
-                <span className="pricing-table-price-amount">20</span>
+                <span className="pricing-table-price-amount">30</span>
               </div>
               <div className="pricing-table-features">
                 <div className="pricing-table-features-title">
                   O que você ganha?
                 </div>
                 <ul className="pricing-table-feature">
-                  <li><i className="fa-solid fa-check"></i> Cubo Diorama 9x9Cm</li>
-                  <li><i className="fa-solid fa-check"></i> Tema personalizado</li>
-                  <li><i className="fa-solid fa-check"></i> Frete grátis</li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> Cubo Diorama 9x9Cm
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> Tema personalizado
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> Frete grátis
+                  </li>
                 </ul>
               </div>
               <div className="pricing-table-cta">
-                <button className="button button-primary button-block">Compre agora</button>
+                <button className="button button-primary button-block">
+                  Compre agora
+                </button>
               </div>
             </div>
             <div className="pricing-table">
               <div className="pricing-table-price">
                 <span className="pricing-table-price-currency">R$</span>
-                <span className="pricing-table-price-amount">20</span>
+                <span className="pricing-table-price-amount">30</span>
               </div>
               <div className="pricing-table-features">
                 <div className="pricing-table-features-title">
                   O que você ganha?
                 </div>
                 <ul className="pricing-table-feature">
-                  <li><i className="fa-solid fa-check"></i> Cubo Diorama 9x9Cm</li>
-                  <li><i className="fa-solid fa-check"></i> Tema personalizado</li>
-                  <li><i className="fa-solid fa-check"></i> Frete grátis</li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> Cubo Diorama 9x9Cm
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> Tema personalizado
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> Frete grátis
+                  </li>
                 </ul>
               </div>
               <div className="pricing-table-cta">
-                <button className="button button-primary button-block">Compre agora</button>
+                <button className="button button-primary button-block">
+                  Compre agora
+                </button>
               </div>
             </div>
             <div className="pricing-table">
               <div className="pricing-table-price">
                 <span className="pricing-table-price-currency">R$</span>
-                <span className="pricing-table-price-amount">20</span>
+                <span className="pricing-table-price-amount">30</span>
               </div>
               <div className="pricing-table-features">
                 <div className="pricing-table-features-title">
                   O que você ganha?
                 </div>
                 <ul className="pricing-table-feature">
-                  <li><i className="fa-solid fa-check"></i> Cubo Diorama 9x9Cm</li>
-                  <li><i className="fa-solid fa-check"></i> Tema personalizado</li>
-                  <li><i className="fa-solid fa-check"></i> Frete grátis</li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> Cubo Diorama 9x9Cm
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> Tema personalizado
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-check"></i> Frete grátis
+                  </li>
                 </ul>
               </div>
               <div className="pricing-table-cta">
-                <button className="button button-primary button-block">Compre agora</button>
+                <button className="button button-primary button-block">
+                  Compre agora
+                </button>
               </div>
             </div>
           </div>
         </section>
 
         <section className="contact section">
-          <h2 className="contact-title">Alguma dúvida? Entre em contato</h2>
-          <form className="contact-form">
-            <input
-              className="contact-form-input"
-              type="text"
-              name="name"
-              placeholder="Nome..."
-            ></input>
-            <input
-              className="contact-form-input"
-              type="email"
-              name="email"
-              placeholder="Email..."
-            ></input>
-            <textarea
-              className="contact-form-input contact-form-textarea"
-              name="mesage"
-              placeholder="Mensagem..."
-            ></textarea>
-            <button className="button-primary">Enviar</button>
-          </form>
+          <div className="separator">
+            <div className="line"></div>
+            <h2 className="pricing-title">Alguma dúvida?</h2>
+            <div className="line"></div>
+          </div>
+          <div className="contact-div">
+            <h2 className="contact-title">Entre em contato</h2>
+            <form className="contact-form">
+              <input
+                className="contact-form-input"
+                type="text"
+                name="name"
+                placeholder="Nome..."
+              ></input>
+              <input
+                className="contact-form-input"
+                type="email"
+                name="email"
+                placeholder="Email..."
+              ></input>
+              <textarea
+                className="contact-form-input contact-form-textarea"
+                name="mesage"
+                placeholder="Mensagem..."
+              ></textarea>
+              <button className="button button-primary button-block">
+                Enviar
+              </button>
+            </form>
+          </div>
         </section>
       </main>
 
       <footer className="site-footer">
         <div className="footer-logo">
-          <img src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
+          <img className="image" src="https://preview.cruip.com/solid/dist/images/feature-icon-02.svg"></img>
         </div>
         <ul className="footer-links">
           <li>
